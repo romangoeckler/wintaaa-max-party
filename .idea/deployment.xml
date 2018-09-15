@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="party.chrisu3050.at STAGE">
+    <serverData>
+      <paths name="party.chrisu3050.at LIVE">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/customers/webs/cwinter/party.chrisu3050.at/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="party.chrisu3050.at STAGE">
+        <serverdata>
+          <mappings>
+            <mapping deploy="\" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

@@ -7,13 +7,29 @@ nav {
 body {
     y-overflow: hidden;
 }
+#particles-js {
+    height: 98vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .no-margin {
     margin-bottom: 0px;
+
+}
+
+.brand-logo img{
+    height: 64px;
 }
 #map {
     width: 99%;
     height: 40vh;
 }
+
+.padding-bottom-tf {
+       padding-bottom: 25px;
+   }
 
 section {
     padding-top: 2% !important;
@@ -53,6 +69,10 @@ section {
 }
 
 .floating-container {
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+    border-image: linear-gradient(to right, #8e2de2, #4a00e0) 1% 100%;
     position: relative;
     margin-top: 40vh;
     margin-left:auto;

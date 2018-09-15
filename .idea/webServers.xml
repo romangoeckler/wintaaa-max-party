@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b293af5-80e8-44f1-9e9c-f1059a7194c0" name="party.chrisu3050.at LIVE" url="http://party.chrisu3050.at">
+        <fileTransfer host="admin.qubik.io" port="22" rootFolder="/home/customers/webs/cwinter/party.chrisu3050.at/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c389b0d1-6bff-4665-9928-c4c33bd7ee10" name="party.chrisu3050.at STAGE" url="http://localhost/party.chrisu3050.at">
+        <fileTransfer port="0" mountedRoot="D:\xampp\htdocs\party.chrisu3050.at" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

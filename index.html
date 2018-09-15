@@ -13,7 +13,7 @@
 		<div class="navbar-fixed">
 			<nav class="transparent ">
 				<div class="nav-wrapper ">
-				  <a href="#!" class="brand-logo">Max & Wintaaa <small>Birthday Bash</small></a>
+					<a href="https://schiabt.org" class="brand-logo center"><img src="img/logo.png" alt="schiabt.org"></a>
 				  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				  <ul class="right hide-on-med-and-down">
 					<li><a href="https://goo.gl/maps/qsfn3nDPNyF2">Anfahrt</a></li>
@@ -31,14 +31,15 @@
 		  </ul>
 		  
 		  <div class="row no-margin">
-			<section class="col s12 mainheader z-depth-4" id="mainpage">
-				<div class="col s12 m6 l6 offset-m3 offset-l3 floating-container card teal">
-					<h3>Eskalation in</h3>
+			<section class="col s12 mainheader  z-depth-4" id="mainpage">
+                <div id="particles-js"></div>
+				<div class="col s12 m6 l6 offset-m3 offset-l3 floating-container card">
+					<h3>es schiabt in</h3>
 					<div id="getting-started"></div>
 					<br/>
 				</div>
 			</section>
-			<section class="col s12 white" style="padding-bottom: 25px;">
+			<section class="col s12 white padding-bottom-tf">
 				<div class="col s12 m6 center-align">
 					<div class="join-text-container">
 						<span class="super-sidetext">Fix zusagen?</span>
@@ -298,12 +299,16 @@ local_drink
 
 
         </script>
-		
+
+        <script src="assets/particles.min.js"></script>
+        <script src="assets/app.js"></script>
 
 
-	
 
-  <script>
+
+
+
+        <script>
 
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -320,17 +325,17 @@ local_drink
 
 
     $(window).scroll(function() {
-        var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+        var scroll = $(window).scrollTop(); // how many pixels you'vxe scrolled
         var os = $('#mainpage').offset().top; // pixels to the top of div1
         var ht = $('#mainpage').height()-68; // height of div1 in pixels
         // if you've scrolled further than the top of div1 plus it's height
         // change the color. either by adding a class or setting a css property
         if(scroll > os + ht){
-            $('nav').addClass('purple accent-4');
+            $('nav').addClass('grey darken-4');
         }
 		
 		if (scroll < os + ht) {
-			$('nav').removeClass('purple accent-4');
+			$('nav').removeClass('grey darken-4');
 		}
     });
 });
